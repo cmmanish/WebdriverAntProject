@@ -54,5 +54,10 @@ public class TestCampaigns1 {
     public void E4testSingleCreateGoogleShoppingCampaignNonUS() throws Exception {
         log.info("E4");
     }
+    
+    @Test
+    public void E5testSingleCreateGoogleShoppingCampaignNonUS() throws Exception {
+        log.info("E5");
+    }
 
 }
