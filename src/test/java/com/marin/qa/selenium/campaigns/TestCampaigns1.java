@@ -7,14 +7,11 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-
-
 //public class TestCampaigns1 extends WebdriverBaseClass {
 public class TestCampaigns1 {
 
     public static Logger log = Logger.getLogger(TestCampaigns1.class);
     public QaRandom random = QaRandom.getInstance();
-    
 
     @BeforeClass
     public static void testSetUp() {
@@ -54,7 +51,7 @@ public class TestCampaigns1 {
     public void E4testSingleCreateGoogleShoppingCampaignNonUS() throws Exception {
         log.info("E4");
     }
-    
+
     @Test
     public void E5testSingleCreateGoogleShoppingCampaignNonUS() throws Exception {
         log.info("E5");
