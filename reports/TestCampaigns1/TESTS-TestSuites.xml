@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="C02LH0CTF1G3" id="0" name="TestCampaigns1" package="test.java.com.marin.qa.selenium.campaigns" skipped="0" tests="4" time="0.293" timestamp="2014-08-11T23:23:00">
+      <properties>
+          <property name="java.vendor" value="Apple Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/templates//" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Mac OS X" />
+
+          <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+
+          <property name="TODAY" value="August 11 2014" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445" />
+
+          <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
+
+          <property name="user.name" value="mmadhusoodan" />
+
+          <property name="awt.nativeDoubleBuffering" value="true" />
+
+          <property name="currentBrowserPrf" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/currProfile" />
+
+          <property name="marin.env" value="local" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+
+          <property name="ant.file.type.Webdriver Automated Tests" value="file" />
+
+          <property name="srcDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/src" />
+
+          <property name="ant.project.name" value="Webdriver Automated Tests" />
+
+          <property name="DSTAMP" value="20140811" />
+
+          <property name="java.version" value="1.6.0_65" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="myclasspath" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/bin:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4-javadoc.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4-sources.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/log4j-1.2.14.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/selenium-2.41.0/selenium-server-standalone-2.41.0.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib" />
+
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="MacRoman" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml" />
+
+          <property name="os.version" value="10.9.4" />
+
+          <property name="localPropsTarget" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/../regression/local.properties" />
+
+          <property name="currentBrowserCmd" value="unset" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="20.65-b04-462" />
+
+          <property name="latestTestReportsDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/reports/TestCampaigns1/_latest" />
+
+          <property name="ant.library.dir" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib" />
+
+          <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="apple.awt.CToolkit" />
+
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/scripts//" />
+
+          <property name="user.home" value="/Users/mmadhusoodan" />
+
+          <property name="target" value="1.5" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:/Applications/eclipse/configuration/org.eclipse.osgi/660/0/.cp" />
+
+          <property name="java.vendor.url" value="http://www.apple.com/" />
+
+          <property name="java.vm.vendor" value="Apple Inc." />
+
+          <property name="gopherProxySet" value="false" />
+
+          <property name="antDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/ant" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1407799376598 -Declipse.connect.port=62612 -Declipse.pdebuild.home=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/.// -Declipse.pdebuild.scripts=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/scripts// -Declipse.pdebuild.templates=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/templates// -Dant.home=/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml runBAT" />
+
+          <property name="java.class.path" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-antlr.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-bcel.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-bsf.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-log4j.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-oro.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-regexp.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-resolver.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-xalan2.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-commons-logging.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-commons-net.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jai.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-javamail.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jdepend.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jmf.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jsch.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-junit.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-junit4.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-launcher.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-netrexx.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-swing.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-testutil.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant.jar:/Applications/eclipse/configuration/org.eclipse.osgi/66/0/.cp/lib/antdebug.jar:/Applications/eclipse/configuration/org.eclipse.osgi/66/0/.cp/lib/remote.jar:/Applications/eclipse/configuration/org.eclipse.osgi/67/0/.cp/lib/remoteAnt.jar:/Applications/eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.103.0.v20140304-1529.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="TSTAMP" value="1622" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="buildDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/bin" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="eclipse.pdebuild.home" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/.//" />
+
+          <property name="java.io.tmpdir" value="/var/folders/6d/jvpj10sd01105lbw5m65qvmcsp7ft4/T/" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+
+          <property name="localPropsSource" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/../localProps/local.properties" />
+
+          <property name="mrj.build" value="11M4609" />
+
+          <property name="os.arch" value="x86_64" />
+
+          <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+
+          <property name="user.dir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject" />
+
+          <property name="mrj.version" value="1070.1.6.0_65-462" />
+
+          <property name="libDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="testReportsDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/reports/TestCampaigns1" />
+
+          <property name="basedir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant.jar" />
+
+          <property name="source" value="1.5" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="testName" value="TestCampaigns1" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="ant.file.Webdriver Automated Tests" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml" />
+
+          <property name="ant.project.invoked-targets" value="runTest" />
+
+      </properties>
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E1testSingleCreateGoogleShoppingCampaignUS" time="0.0040" />
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E2testSingleCreateGoogleShoppingCampaignNonUS" time="0.0020" />
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E3testSingleCreateGoogleShoppingCampaignNonUS" time="0.0030" />
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E4testSingleCreateGoogleShoppingCampaignNonUS" time="0.0040" />
+
+      <system-out><![CDATA[16:23:00,655 INFO [Thread-1] (TestCampaigns1:21 :testSetUp) -> <--------- Start Setup Test --------->
+    16:23:00,659 INFO [Thread-1] (TestCampaigns1:24 :testSetUp) -> <--------- End Setup Test --------->
+    16:23:00,685 INFO [Thread-1] (TestCampaigns1:40 :E1testSingleCreateGoogleShoppingCampaignUS) -> E1
+    16:23:00,689 INFO [Thread-1] (TestCampaigns1:45 :E2testSingleCreateGoogleShoppingCampaignNonUS) -> E2
+    16:23:00,691 INFO [Thread-1] (TestCampaigns1:50 :E3testSingleCreateGoogleShoppingCampaignNonUS) -> E3
+    16:23:00,694 INFO [Thread-1] (TestCampaigns1:55 :E4testSingleCreateGoogleShoppingCampaignNonUS) -> E4
+    16:23:00,697 INFO [Thread-1] (TestCampaigns1:29 :cleanup) -> <--------- Start Logout Test --------->
+    16:23:00,698 INFO [Thread-1] (TestCampaigns1:35 :cleanup) -> <--------- End Logout Test --------->
+    ]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="4" failures="0" hostname="C02LH0CTF1G3" id="1" name="TestCampaigns1" package="test.java.com.marin.qa.selenium.campaigns" skipped="0" tests="4" time="0.233" timestamp="2014-08-11T23:25:26">
+      <properties>
+          <property name="java.vendor" value="Apple Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/templates//" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Mac OS X" />
+
+          <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+
+          <property name="TODAY" value="August 11 2014" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445" />
+
+          <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
+
+          <property name="user.name" value="mmadhusoodan" />
+
+          <property name="awt.nativeDoubleBuffering" value="true" />
+
+          <property name="currentBrowserPrf" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/currProfile" />
+
+          <property name="marin.env" value="local" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+
+          <property name="ant.file.type.Webdriver Automated Tests" value="file" />
+
+          <property name="srcDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/src" />
+
+          <property name="ant.project.name" value="Webdriver Automated Tests" />
+
+          <property name="DSTAMP" value="20140811" />
+
+          <property name="java.version" value="1.6.0_65" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="MacRoman" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml" />
+
+          <property name="os.version" value="10.9.4" />
+
+          <property name="localPropsTarget" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/../regression/local.properties" />
+
+          <property name="currentBrowserCmd" value="unset" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="20.65-b04-462" />
+
+          <property name="latestTestReportsDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/reports/TestCampaigns1/_latest" />
+
+          <property name="ant.library.dir" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib" />
+
+          <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="apple.awt.CToolkit" />
+
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/scripts//" />
+
+          <property name="user.home" value="/Users/mmadhusoodan" />
+
+          <property name="target" value="1.5" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:/Applications/eclipse/configuration/org.eclipse.osgi/660/0/.cp" />
+
+          <property name="java.vendor.url" value="http://www.apple.com/" />
+
+          <property name="java.vm.vendor" value="Apple Inc." />
+
+          <property name="gopherProxySet" value="false" />
+
+          <property name="antDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/ant" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1407799525136 -Declipse.connect.port=62637 -Declipse.pdebuild.home=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/.// -Declipse.pdebuild.scripts=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/scripts// -Declipse.pdebuild.templates=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/templates// -Dant.home=/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml batCampaign" />
+
+          <property name="java.class.path" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-antlr.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-bcel.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-bsf.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-log4j.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-oro.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-regexp.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-resolver.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-xalan2.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-commons-logging.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-commons-net.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jai.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-javamail.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jdepend.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jmf.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jsch.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-junit.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-junit4.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-launcher.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-netrexx.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-swing.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-testutil.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant.jar:/Applications/eclipse/configuration/org.eclipse.osgi/66/0/.cp/lib/antdebug.jar:/Applications/eclipse/configuration/org.eclipse.osgi/66/0/.cp/lib/remote.jar:/Applications/eclipse/configuration/org.eclipse.osgi/67/0/.cp/lib/remoteAnt.jar:/Applications/eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.103.0.v20140304-1529.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="TSTAMP" value="1625" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="buildDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/bin" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="eclipse.pdebuild.home" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/.//" />
+
+          <property name="java.io.tmpdir" value="/var/folders/6d/jvpj10sd01105lbw5m65qvmcsp7ft4/T/" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+
+          <property name="localPropsSource" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/../localProps/local.properties" />
+
+          <property name="mrj.build" value="11M4609" />
+
+          <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+
+          <property name="os.arch" value="x86_64" />
+
+          <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+
+          <property name="user.dir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject" />
+
+          <property name="mrj.version" value="1070.1.6.0_65-462" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="libDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="testReportsDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/reports/TestCampaigns1" />
+
+          <property name="basedir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant.jar" />
+
+          <property name="source" value="1.5" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="testName" value="TestCampaigns1" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="ant.file.Webdriver Automated Tests" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml" />
+
+          <property name="ant.project.invoked-targets" value="runTest" />
+
+      </properties>
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E1testSingleCreateGoogleShoppingCampaignUS" time="0.0060">
+          <error message="main/java/com/marin/qa/selenium/resources/QaRandom" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: main/java/com/marin/qa/selenium/resources/QaRandom
+	at test.java.com.marin.qa.selenium.campaigns.TestCampaigns1.&lt;init&gt;(TestCampaigns1.java:16)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.eclipse.ant.internal.launching.remote.EclipseSingleCheckExecutor.executeTargets(EclipseSingleCheckExecutor.java:34)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
+Caused by: java.lang.ClassNotFoundException: main.java.com.marin.qa.selenium.resources.QaRandom
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E2testSingleCreateGoogleShoppingCampaignNonUS" time="0.0010">
+          <error message="main/java/com/marin/qa/selenium/resources/QaRandom" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: main/java/com/marin/qa/selenium/resources/QaRandom
+	at test.java.com.marin.qa.selenium.campaigns.TestCampaigns1.&lt;init&gt;(TestCampaigns1.java:16)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.eclipse.ant.internal.launching.remote.EclipseSingleCheckExecutor.executeTargets(EclipseSingleCheckExecutor.java:34)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E3testSingleCreateGoogleShoppingCampaignNonUS" time="0.0010">
+          <error message="main/java/com/marin/qa/selenium/resources/QaRandom" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: main/java/com/marin/qa/selenium/resources/QaRandom
+	at test.java.com.marin.qa.selenium.campaigns.TestCampaigns1.&lt;init&gt;(TestCampaigns1.java:16)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.eclipse.ant.internal.launching.remote.EclipseSingleCheckExecutor.executeTargets(EclipseSingleCheckExecutor.java:34)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
+</error>
+
+      </testcase>
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E4testSingleCreateGoogleShoppingCampaignNonUS" time="0.0010">
+          <error message="main/java/com/marin/qa/selenium/resources/QaRandom" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: main/java/com/marin/qa/selenium/resources/QaRandom
+	at test.java.com.marin.qa.selenium.campaigns.TestCampaigns1.&lt;init&gt;(TestCampaigns1.java:16)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.eclipse.ant.internal.launching.remote.EclipseSingleCheckExecutor.executeTargets(EclipseSingleCheckExecutor.java:34)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[16:25:26,531 INFO [Thread-1] (TestCampaigns1:21 :testSetUp) -> <--------- Start Setup Test --------->
+    16:25:26,534 INFO [Thread-1] (TestCampaigns1:24 :testSetUp) -> <--------- End Setup Test --------->
+    16:25:26,583 INFO [Thread-1] (TestCampaigns1:29 :cleanup) -> <--------- Start Logout Test --------->
+    16:25:26,584 INFO [Thread-1] (TestCampaigns1:35 :cleanup) -> <--------- End Logout Test --------->
+    ]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="C02LH0CTF1G3" id="2" name="TestCampaigns1" package="test.java.com.marin.qa.selenium.campaigns" skipped="0" tests="4" time="0.192" timestamp="2014-08-11T23:26:34">
+      <properties>
+          <property name="java.vendor" value="Apple Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/templates//" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Mac OS X" />
+
+          <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+
+          <property name="TODAY" value="August 11 2014" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445" />
+
+          <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
+
+          <property name="user.name" value="mmadhusoodan" />
+
+          <property name="awt.nativeDoubleBuffering" value="true" />
+
+          <property name="currentBrowserPrf" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/currProfile" />
+
+          <property name="marin.env" value="local" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+
+          <property name="ant.file.type.Webdriver Automated Tests" value="file" />
+
+          <property name="srcDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/src" />
+
+          <property name="ant.project.name" value="Webdriver Automated Tests" />
+
+          <property name="DSTAMP" value="20140811" />
+
+          <property name="java.version" value="1.6.0_65" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="myclasspath" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/bin:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4-javadoc.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4-sources.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/log4j-1.2.14.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/selenium-2.41.0/selenium-server-standalone-2.41.0.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib" />
+
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="MacRoman" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml" />
+
+          <property name="os.version" value="10.9.4" />
+
+          <property name="localPropsTarget" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/../regression/local.properties" />
+
+          <property name="currentBrowserCmd" value="unset" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="20.65-b04-462" />
+
+          <property name="latestTestReportsDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/reports/TestCampaigns1/_latest" />
+
+          <property name="ant.library.dir" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib" />
+
+          <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="apple.awt.CToolkit" />
+
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/scripts//" />
+
+          <property name="user.home" value="/Users/mmadhusoodan" />
+
+          <property name="target" value="1.5" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:/Applications/eclipse/configuration/org.eclipse.osgi/660/0/.cp" />
+
+          <property name="java.vendor.url" value="http://www.apple.com/" />
+
+          <property name="java.vm.vendor" value="Apple Inc." />
+
+          <property name="gopherProxySet" value="false" />
+
+          <property name="antDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/ant" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1407799590512 -Declipse.connect.port=62649 -Declipse.pdebuild.home=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/.// -Declipse.pdebuild.scripts=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/scripts// -Declipse.pdebuild.templates=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/templates// -Dant.home=/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml runBAT" />
+
+          <property name="java.class.path" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-antlr.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-bcel.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-bsf.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-log4j.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-oro.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-regexp.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-resolver.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-xalan2.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-commons-logging.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-commons-net.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jai.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-javamail.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jdepend.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jmf.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jsch.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-junit.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-junit4.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-launcher.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-netrexx.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-swing.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-testutil.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant.jar:/Applications/eclipse/configuration/org.eclipse.osgi/66/0/.cp/lib/antdebug.jar:/Applications/eclipse/configuration/org.eclipse.osgi/66/0/.cp/lib/remote.jar:/Applications/eclipse/configuration/org.eclipse.osgi/67/0/.cp/lib/remoteAnt.jar:/Applications/eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.103.0.v20140304-1529.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="TSTAMP" value="1626" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="buildDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/bin" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="eclipse.pdebuild.home" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/.//" />
+
+          <property name="java.io.tmpdir" value="/var/folders/6d/jvpj10sd01105lbw5m65qvmcsp7ft4/T/" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+
+          <property name="localPropsSource" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/../localProps/local.properties" />
+
+          <property name="mrj.build" value="11M4609" />
+
+          <property name="os.arch" value="x86_64" />
+
+          <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+
+          <property name="user.dir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject" />
+
+          <property name="mrj.version" value="1070.1.6.0_65-462" />
+
+          <property name="libDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="testReportsDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/reports/TestCampaigns1" />
+
+          <property name="basedir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant.jar" />
+
+          <property name="source" value="1.5" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="testName" value="TestCampaigns1" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="ant.file.Webdriver Automated Tests" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml" />
+
+          <property name="ant.project.invoked-targets" value="runTest" />
+
+      </properties>
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E1testSingleCreateGoogleShoppingCampaignUS" time="0.0040" />
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E2testSingleCreateGoogleShoppingCampaignNonUS" time="0.0020" />
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E3testSingleCreateGoogleShoppingCampaignNonUS" time="0.0020" />
+
+      <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestCampaigns1" name="E4testSingleCreateGoogleShoppingCampaignNonUS" time="0.0020" />
+
+      <system-out><![CDATA[16:26:34,281 INFO [Thread-1] (TestCampaigns1:21 :testSetUp) -> <--------- Start Setup Test --------->
+    16:26:34,284 INFO [Thread-1] (TestCampaigns1:24 :testSetUp) -> <--------- End Setup Test --------->
+    16:26:34,295 INFO [Thread-1] (TestCampaigns1:40 :E1testSingleCreateGoogleShoppingCampaignUS) -> E1
+    16:26:34,298 INFO [Thread-1] (TestCampaigns1:45 :E2testSingleCreateGoogleShoppingCampaignNonUS) -> E2
+    16:26:34,300 INFO [Thread-1] (TestCampaigns1:50 :E3testSingleCreateGoogleShoppingCampaignNonUS) -> E3
+    16:26:34,301 INFO [Thread-1] (TestCampaigns1:55 :E4testSingleCreateGoogleShoppingCampaignNonUS) -> E4
+    16:26:34,304 INFO [Thread-1] (TestCampaigns1:29 :cleanup) -> <--------- Start Logout Test --------->
+    16:26:34,304 INFO [Thread-1] (TestCampaigns1:35 :cleanup) -> <--------- End Logout Test --------->
+    ]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

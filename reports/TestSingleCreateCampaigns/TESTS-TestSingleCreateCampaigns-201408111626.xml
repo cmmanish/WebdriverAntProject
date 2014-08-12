@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="C02LH0CTF1G3" name="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" skipped="0" tests="8" time="279.839" timestamp="2014-08-11T23:27:03">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="TODAY" value="August 11 2014" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445" />
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
+    <property name="user.name" value="mmadhusoodan" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="currentBrowserPrf" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/currProfile" />
+    <property name="marin.env" value="local" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="ant.file.type.Webdriver Automated Tests" value="file" />
+    <property name="srcDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/src" />
+    <property name="ant.project.name" value="Webdriver Automated Tests" />
+    <property name="DSTAMP" value="20140811" />
+    <property name="java.version" value="1.6.0_65" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="myclasspath" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/bin:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4-javadoc.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4-sources.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/junit-4.4.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/log4j-1.2.14.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/selenium-2.41.0/selenium-server-standalone-2.41.0.jar:/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml" />
+    <property name="os.version" value="10.9.4" />
+    <property name="localPropsTarget" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/../regression/local.properties" />
+    <property name="currentBrowserCmd" value="unset" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.65-b04-462" />
+    <property name="latestTestReportsDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/reports/TestSingleCreateCampaigns/_latest" />
+    <property name="ant.library.dir" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/scripts//" />
+    <property name="user.home" value="/Users/mmadhusoodan" />
+    <property name="target" value="1.5" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:/Applications/eclipse/configuration/org.eclipse.osgi/660/0/.cp" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
+    <property name="antDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib/ant" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1407799602210 -Declipse.connect.port=62653 -Declipse.pdebuild.home=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/.// -Declipse.pdebuild.scripts=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/scripts// -Declipse.pdebuild.templates=/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/templates// -Dant.home=/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml runSingleCampaign" />
+    <property name="java.class.path" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-antlr.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-bcel.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-bsf.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-log4j.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-oro.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-regexp.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-resolver.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-apache-xalan2.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-commons-logging.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-commons-net.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jai.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-javamail.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jdepend.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jmf.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-jsch.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-junit.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-junit4.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-launcher.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-netrexx.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-swing.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant-testutil.jar:/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant.jar:/Applications/eclipse/configuration/org.eclipse.osgi/66/0/.cp/lib/antdebug.jar:/Applications/eclipse/configuration/org.eclipse.osgi/66/0/.cp/lib/remote.jar:/Applications/eclipse/configuration/org.eclipse.osgi/67/0/.cp/lib/remoteAnt.jar:/Applications/eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.103.0.v20140304-1529.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="TSTAMP" value="1626" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="buildDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/bin" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="eclipse.pdebuild.home" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20131003-1506/.//" />
+    <property name="java.io.tmpdir" value="/var/folders/6d/jvpj10sd01105lbw5m65qvmcsp7ft4/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="localPropsSource" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/../localProps/local.properties" />
+    <property name="mrj.build" value="11M4609" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="user.dir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject" />
+    <property name="mrj.version" value="1070.1.6.0_65-462" />
+    <property name="libDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/lib" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="testReportsDir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/reports/TestSingleCreateCampaigns" />
+    <property name="basedir" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/Applications/eclipse/plugins/org.apache.ant_1.9.2.v201307241445/lib/ant.jar" />
+    <property name="source" value="1.5" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="testName" value="TestSingleCreateCampaigns" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.file.Webdriver Automated Tests" value="/Users/mmadhusoodan/qa/workspace/WebdriverAntProject/build.xml" />
+    <property name="ant.project.invoked-targets" value="runTest" />
+  </properties>
+  <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" name="T1SingleCreateGoogleShoppingCampaignNonUS" time="30.202" />
+  <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" name="T2SingleCreateGoogleShoppingCampaignUSShoppingChannelBoth" time="29.943" />
+  <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" name="T3SingleCreateGoogleShoppingCampaignUSShoppingChannelOnline" time="30.618" />
+  <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" name="T4SingleCreateGoogleShoppingCampaignUSShoppingChannelLocal" time="31.844" />
+  <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" name="T5SingleCreateGoogleSearchNetworkCampaignSearchPartnerDistribution" time="18.752" />
+  <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" name="T6SingleCreateGoogleSearchNetworkCampaignDisplaySelectDistribution" time="28.819" />
+  <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" name="T7SingleCreateGoogleSearchNetworkCampaignAllDistribution" time="29.257" />
+  <testcase classname="test.java.com.marin.qa.selenium.campaigns.TestSingleCreateCampaigns" name="T8SingleCreateGoogleDisplayNetworkOnlyCampaign" time="30.764" />
+  <system-out><![CDATA[Looking for property file: /Users/mmadhusoodan/qa/workspace/MyWebdriverProject/src/main/java/com/marin/qa/selenium/resources/local.properties
+16:26:57,832 INFO [Thread-1] (MarinApp:48 :setupBrowser) -> Set Browser Dimensions to 1920x1080.
+    16:26:57,835 INFO [Thread-1] (MarinApp:49 :setupBrowser) -> Using browser driver: org.openqa.selenium.firefox.FirefoxDriver
+    16:27:03,664 INFO [Thread-1] (MarinApp:69 :launchApp) -> Launching ...  https://truffle.marinsoftware.com/
+    16:27:03,709 INFO [Thread-1] (TestSingleCreateCampaigns:37 :testSetUp) -> <--------- Start Setup Test --------->
+    16:27:03,710 INFO [Thread-1] (WebdriverBaseClass:44 :LoginSuccessful) -> <--------- Start Login Test --------->
+    16:27:03,851 INFO [Thread-1] (LoginPage:164 :setText) -> Type "auto_orca@marinsoftware.com" in "Email" Text Input in "LoginPage"
+    16:27:03,901 INFO [Thread-1] (LoginPage:164 :setText) -> Type "marin2007" in "Password" Text Input in "LoginPage"
+    16:27:14,407 ERROR [Thread-1] (AbstractPage:66 :waitForJQuery) -> Failed to load jQuery on page in 6000 msec
+    16:27:14,414 INFO [Thread-1] (LoginPage:187 :clickButton) -> Press "Signin" Button in "LoginPage"
+    16:27:14,415 INFO [Thread-1] (WebdriverBaseClass:47 :LoginSuccessful) -> <--------- End Login Test --------->
+    16:27:16,099 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:27:26,478 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:27:26,662 INFO [Thread-1] (ActivityLogPage:136 :select) -> Select "150" option in "Show" Drop Down Menu in "ActivityLogPage"
+    16:27:28,344 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:27:28,345 INFO [Thread-1] (ActivityLogPage:366 :check) -> Click on "Check Box All" CheckBox in "ActivityLogPage"
+    16:27:28,509 INFO [Thread-1] (ActivityLogPage:136 :select) -> Select "20" option in "Show" Drop Down Menu in "ActivityLogPage"
+    16:27:29,548 INFO [Thread-1] (TestSingleCreateCampaigns:40 :testSetUp) -> <--------- End Setup Test --------->
+    16:27:29,614 INFO [Thread-1] (HomePage:233 :select) -> 
+    16:27:32,810 INFO [Thread-1] (HomePage:235 :select) -> Select "Campaigns" Tab in "HomePage"
+    16:27:32,863 INFO [Thread-1] (CampaignsPage:151 :click) -> 
+    16:27:34,894 INFO [Thread-1] (CampaignsPage:153 :click) -> Press "Create" Button in "CampaignsPage"
+    16:27:35,341 INFO [Thread-1] (NewCampaignPage:146 :typeInput) -> Type "CampaignName_gFK3O" in "Campaign Name" Text Input in "NewCampaignPage"
+    16:27:35,410 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:27:35,426 INFO [Thread-1] (NewCampaignPage:197 :select) -> Select "Google · Goog301" option in "Publisher Account" Drop Down Menu in "NewCampaignPage"
+    16:27:35,474 INFO [Thread-1] (NewCampaignPage:98 :clickButton) -> 
+    16:27:36,803 INFO [Thread-1] (NewCampaignPage:100 :clickButton) -> Press "Next Step" Button in "NewCampaignPage"
+    16:27:37,255 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "8/11/14" in "State Date" Text Input in "NewGoogleCampaignPage"
+    16:27:37,489 INFO [Thread-1] (NewGoogleCampaignPage:412 :check) -> click Set End Date YesNewGoogleCampaignPage"
+    16:27:37,723 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "9/11/14" in "End Date" Text Input in "NewGoogleCampaignPage"
+    16:27:37,790 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:27:37,805 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Active" option in "Status" Drop Down Menu in "NewGoogleCampaignPage"
+    16:27:37,883 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:27:37,894 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Shopping" option in "Campaign Type" Drop Down Menu in "NewGoogleCampaignPage"
+    16:27:37,960 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:27:37,971 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "India" option in "Country of Sale" Drop Down Menu in "NewGoogleCampaignPage"
+    16:27:38,041 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:27:38,056 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "High" option in "Campaign Priority" Drop Down Menu in "NewGoogleCampaignPage"
+    16:27:38,230 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "100543509" in "Merchant ID" Text Input in "NewGoogleCampaignPage"
+    16:27:38,380 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "1.11" in "Budget" Text Input in "NewGoogleCampaignPage"
+    16:27:38,445 INFO [Thread-1] (NewGoogleCampaignPage:150 :clickButton) -> 
+    16:27:41,988 INFO [Thread-1] (NewGoogleCampaignPage:152 :clickButton) -> Press "Save" Button in "NewGoogleCampaignPage"
+    16:27:45,918 INFO [Thread-1] (CampaignsPage:344 :select) -> Select "150CampaignsAllButDeleted" option in "View Select" Drop Down Menu in "CampaignsPage"
+    16:27:46,003 INFO [Thread-1] (CampaignsPage:268 :open) ->  null
+    16:27:47,788 INFO [Thread-1] (SingleCampaignPage:196 :select) -> 
+    16:27:49,308 INFO [Thread-1] (SingleCampaignPage:198 :select) -> Select "Settings" Tab in "SingleCampaignPage"
+    16:27:49,376 INFO [Thread-1] (CampaignSettingsPage:300 :getSelected) -> Value of "Publisher\Account" DropDownMenu is "Active" in "CampaignSettingsPage"
+    16:27:49,567 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:27:59,745 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:27:59,821 INFO [Thread-1] (HomePage:233 :select) -> 
+    16:28:02,832 INFO [Thread-1] (HomePage:235 :select) -> Select "Campaigns" Tab in "HomePage"
+    16:28:02,898 INFO [Thread-1] (CampaignsPage:151 :click) -> 
+    16:28:04,824 INFO [Thread-1] (CampaignsPage:153 :click) -> Press "Create" Button in "CampaignsPage"
+    16:28:05,266 INFO [Thread-1] (NewCampaignPage:146 :typeInput) -> Type "CampaignName_ZudDA" in "Campaign Name" Text Input in "NewCampaignPage"
+    16:28:05,331 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:05,342 INFO [Thread-1] (NewCampaignPage:197 :select) -> Select "Google · Goog301" option in "Publisher Account" Drop Down Menu in "NewCampaignPage"
+    16:28:05,393 INFO [Thread-1] (NewCampaignPage:98 :clickButton) -> 
+    16:28:06,224 INFO [Thread-1] (NewCampaignPage:100 :clickButton) -> Press "Next Step" Button in "NewCampaignPage"
+    16:28:06,664 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "8/11/14" in "State Date" Text Input in "NewGoogleCampaignPage"
+    16:28:06,820 INFO [Thread-1] (NewGoogleCampaignPage:412 :check) -> click Set End Date YesNewGoogleCampaignPage"
+    16:28:06,974 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "9/11/14" in "End Date" Text Input in "NewGoogleCampaignPage"
+    16:28:07,047 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:07,061 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Active" option in "Status" Drop Down Menu in "NewGoogleCampaignPage"
+    16:28:07,156 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:07,170 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Shopping" option in "Campaign Type" Drop Down Menu in "NewGoogleCampaignPage"
+    16:28:07,396 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:07,413 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "United States" option in "Country of Sale" Drop Down Menu in "NewGoogleCampaignPage"
+    16:28:07,495 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:07,510 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "High" option in "Campaign Priority" Drop Down Menu in "NewGoogleCampaignPage"
+    16:28:07,545 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:07,546 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Online" CheckBox in "NewGoogleCampaignPage"
+    16:28:07,589 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:07,590 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Local" CheckBox in "NewGoogleCampaignPage"
+    16:28:07,741 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "100543509" in "Merchant ID" Text Input in "NewGoogleCampaignPage"
+    16:28:07,901 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "1.11" in "Budget" Text Input in "NewGoogleCampaignPage"
+    16:28:07,985 INFO [Thread-1] (NewGoogleCampaignPage:150 :clickButton) -> 
+    16:28:10,550 INFO [Thread-1] (NewGoogleCampaignPage:152 :clickButton) -> Press "Save" Button in "NewGoogleCampaignPage"
+    16:28:13,921 INFO [Thread-1] (CampaignsPage:344 :select) -> Select "150CampaignsAllButDeleted" option in "View Select" Drop Down Menu in "CampaignsPage"
+    16:28:14,546 INFO [Thread-1] (Filter:786 :click) -> Open "Campaign" Filter in "Filter"
+    16:28:14,599 INFO [Thread-1] (Filter:833 :select) -> Selected "Contains" Menu Option in "Filter"
+    16:28:14,653 INFO [Thread-1] (Filter:858 :type) -> Type "CampaignName_ZudDA" in "Text" Text Input in "Filter"
+    16:28:15,417 INFO [Thread-1] (Filter:809 :click) -> Open "Apply" Filter in "Filter"
+    16:28:15,989 INFO [Thread-1] (CampaignsPage:268 :open) ->  null
+    16:28:17,762 INFO [Thread-1] (SingleCampaignPage:196 :select) -> 
+    16:28:18,701 INFO [Thread-1] (SingleCampaignPage:198 :select) -> Select "Settings" Tab in "SingleCampaignPage"
+    16:28:19,272 INFO [Thread-1] (CampaignSettingsPage:300 :getSelected) -> Value of "Publisher\Account" DropDownMenu is "Active" in "CampaignSettingsPage"
+    16:28:19,457 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:28:29,692 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:28:29,756 INFO [Thread-1] (HomePage:233 :select) -> 
+    16:28:32,046 INFO [Thread-1] (HomePage:235 :select) -> Select "Campaigns" Tab in "HomePage"
+    16:28:32,598 INFO [Thread-1] (CampaignsPage:151 :click) -> 
+    16:28:34,512 INFO [Thread-1] (CampaignsPage:153 :click) -> Press "Create" Button in "CampaignsPage"
+    16:28:34,953 INFO [Thread-1] (NewCampaignPage:146 :typeInput) -> Type "CampaignName_25Vry" in "Campaign Name" Text Input in "NewCampaignPage"
+    16:28:35,008 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:35,021 INFO [Thread-1] (NewCampaignPage:197 :select) -> Select "Google · Goog301" option in "Publisher Account" Drop Down Menu in "NewCampaignPage"
+    16:28:35,071 INFO [Thread-1] (NewCampaignPage:98 :clickButton) -> 
+    16:28:36,557 INFO [Thread-1] (NewCampaignPage:100 :clickButton) -> Press "Next Step" Button in "NewCampaignPage"
+    16:28:37,000 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "8/11/14" in "State Date" Text Input in "NewGoogleCampaignPage"
+    16:28:37,152 INFO [Thread-1] (NewGoogleCampaignPage:412 :check) -> click Set End Date YesNewGoogleCampaignPage"
+    16:28:37,289 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "9/11/14" in "End Date" Text Input in "NewGoogleCampaignPage"
+    16:28:37,345 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:37,358 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Active" option in "Status" Drop Down Menu in "NewGoogleCampaignPage"
+    16:28:37,423 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:37,434 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Shopping" option in "Campaign Type" Drop Down Menu in "NewGoogleCampaignPage"
+    16:28:37,499 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:37,509 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "United States" option in "Country of Sale" Drop Down Menu in "NewGoogleCampaignPage"
+    16:28:37,570 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:37,586 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "High" option in "Campaign Priority" Drop Down Menu in "NewGoogleCampaignPage"
+    16:28:37,616 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:28:37,617 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Online" CheckBox in "NewGoogleCampaignPage"
+    16:28:37,770 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "100543509" in "Merchant ID" Text Input in "NewGoogleCampaignPage"
+    16:28:37,912 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "1.11" in "Budget" Text Input in "NewGoogleCampaignPage"
+    16:28:37,966 INFO [Thread-1] (NewGoogleCampaignPage:150 :clickButton) -> 
+    16:28:41,072 INFO [Thread-1] (NewGoogleCampaignPage:152 :clickButton) -> Press "Save" Button in "NewGoogleCampaignPage"
+    16:28:44,370 INFO [Thread-1] (CampaignsPage:344 :select) -> Select "150CampaignsAllButDeleted" option in "View Select" Drop Down Menu in "CampaignsPage"
+    16:28:44,865 INFO [Thread-1] (Filter:786 :click) -> Open "Campaign" Filter in "Filter"
+    16:28:44,903 INFO [Thread-1] (Filter:833 :select) -> Selected "Contains" Menu Option in "Filter"
+    16:28:44,976 INFO [Thread-1] (Filter:858 :type) -> Type "CampaignName_25Vry" in "Text" Text Input in "Filter"
+    16:28:45,756 INFO [Thread-1] (Filter:809 :click) -> Open "Apply" Filter in "Filter"
+    16:28:46,347 INFO [Thread-1] (CampaignsPage:268 :open) ->  null
+    16:28:48,227 INFO [Thread-1] (SingleCampaignPage:196 :select) -> 
+    16:28:49,738 INFO [Thread-1] (SingleCampaignPage:198 :select) -> Select "Settings" Tab in "SingleCampaignPage"
+    16:28:49,809 INFO [Thread-1] (CampaignSettingsPage:300 :getSelected) -> Value of "Publisher\Account" DropDownMenu is "Active" in "CampaignSettingsPage"
+    16:28:50,000 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:29:00,309 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:29:00,370 INFO [Thread-1] (HomePage:233 :select) -> 
+    16:29:03,000 INFO [Thread-1] (HomePage:235 :select) -> Select "Campaigns" Tab in "HomePage"
+    16:29:03,048 INFO [Thread-1] (CampaignsPage:151 :click) -> 
+    16:29:04,982 INFO [Thread-1] (CampaignsPage:153 :click) -> Press "Create" Button in "CampaignsPage"
+    16:29:05,453 INFO [Thread-1] (NewCampaignPage:146 :typeInput) -> Type "CampaignName_AwpIW" in "Campaign Name" Text Input in "NewCampaignPage"
+    16:29:05,523 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:05,535 INFO [Thread-1] (NewCampaignPage:197 :select) -> Select "Google · Goog301" option in "Publisher Account" Drop Down Menu in "NewCampaignPage"
+    16:29:05,575 INFO [Thread-1] (NewCampaignPage:98 :clickButton) -> 
+    16:29:06,861 INFO [Thread-1] (NewCampaignPage:100 :clickButton) -> Press "Next Step" Button in "NewCampaignPage"
+    16:29:07,304 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "8/11/14" in "State Date" Text Input in "NewGoogleCampaignPage"
+    16:29:07,448 INFO [Thread-1] (NewGoogleCampaignPage:412 :check) -> click Set End Date YesNewGoogleCampaignPage"
+    16:29:07,594 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "9/11/14" in "End Date" Text Input in "NewGoogleCampaignPage"
+    16:29:07,652 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:07,664 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Active" option in "Status" Drop Down Menu in "NewGoogleCampaignPage"
+    16:29:07,740 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:07,755 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Shopping" option in "Campaign Type" Drop Down Menu in "NewGoogleCampaignPage"
+    16:29:07,822 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:07,835 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "United States" option in "Country of Sale" Drop Down Menu in "NewGoogleCampaignPage"
+    16:29:07,890 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:07,906 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "High" option in "Campaign Priority" Drop Down Menu in "NewGoogleCampaignPage"
+    16:29:07,940 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:07,941 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Local" CheckBox in "NewGoogleCampaignPage"
+    16:29:08,092 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "100543509" in "Merchant ID" Text Input in "NewGoogleCampaignPage"
+    16:29:08,240 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "1.11" in "Budget" Text Input in "NewGoogleCampaignPage"
+    16:29:08,291 INFO [Thread-1] (NewGoogleCampaignPage:150 :clickButton) -> 
+    16:29:12,518 INFO [Thread-1] (NewGoogleCampaignPage:152 :clickButton) -> Press "Save" Button in "NewGoogleCampaignPage"
+    16:29:16,301 INFO [Thread-1] (CampaignsPage:344 :select) -> Select "150CampaignsAllButDeleted" option in "View Select" Drop Down Menu in "CampaignsPage"
+    16:29:16,817 INFO [Thread-1] (Filter:786 :click) -> Open "Campaign" Filter in "Filter"
+    16:29:16,901 INFO [Thread-1] (Filter:833 :select) -> Selected "Contains" Menu Option in "Filter"
+    16:29:16,970 INFO [Thread-1] (Filter:858 :type) -> Type "CampaignName_AwpIW" in "Text" Text Input in "Filter"
+    16:29:17,722 INFO [Thread-1] (Filter:809 :click) -> Open "Apply" Filter in "Filter"
+    16:29:18,321 INFO [Thread-1] (CampaignsPage:268 :open) ->  null
+    16:29:20,114 INFO [Thread-1] (SingleCampaignPage:196 :select) -> 
+    16:29:21,058 INFO [Thread-1] (SingleCampaignPage:198 :select) -> Select "Settings" Tab in "SingleCampaignPage"
+    16:29:21,636 INFO [Thread-1] (CampaignSettingsPage:300 :getSelected) -> Value of "Publisher\Account" DropDownMenu is "Active" in "CampaignSettingsPage"
+    16:29:21,828 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:29:32,155 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:29:32,212 INFO [Thread-1] (HomePage:233 :select) -> 
+    16:29:34,962 INFO [Thread-1] (HomePage:235 :select) -> Select "Campaigns" Tab in "HomePage"
+    16:29:35,013 INFO [Thread-1] (CampaignsPage:151 :click) -> 
+    16:29:36,951 INFO [Thread-1] (CampaignsPage:153 :click) -> Press "Create" Button in "CampaignsPage"
+    16:29:37,391 INFO [Thread-1] (NewCampaignPage:146 :typeInput) -> Type "CampaignName_x1fVj" in "Campaign Name" Text Input in "NewCampaignPage"
+    16:29:37,450 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:37,462 INFO [Thread-1] (NewCampaignPage:197 :select) -> Select "Google · Goog301" option in "Publisher Account" Drop Down Menu in "NewCampaignPage"
+    16:29:37,500 INFO [Thread-1] (NewCampaignPage:98 :clickButton) -> 
+    16:29:38,782 INFO [Thread-1] (NewCampaignPage:100 :clickButton) -> Press "Next Step" Button in "NewCampaignPage"
+    16:29:39,221 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "8/11/14" in "State Date" Text Input in "NewGoogleCampaignPage"
+    16:29:39,363 INFO [Thread-1] (NewGoogleCampaignPage:412 :check) -> click Set End Date YesNewGoogleCampaignPage"
+    16:29:39,505 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "9/11/14" in "End Date" Text Input in "NewGoogleCampaignPage"
+    16:29:39,562 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:39,575 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Active" option in "Status" Drop Down Menu in "NewGoogleCampaignPage"
+    16:29:39,631 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:39,643 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Search Network" option in "Campaign Type" Drop Down Menu in "NewGoogleCampaignPage"
+    16:29:39,678 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:39,678 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Search Partners" CheckBox in "NewGoogleCampaignPage"
+    16:29:39,693 INFO [Thread-1] (NewGoogleCampaignPage:241 :uncheck) -> 
+    16:29:39,805 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:39,806 INFO [Thread-1] (NewGoogleCampaignPage:244 :uncheck) -> Uncheck on "Display Select" CheckBox in "NewGoogleCampaignPage"
+    16:29:39,833 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:39,833 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Keyword Matching" CheckBox in "NewGoogleCampaignPage"
+    16:29:39,978 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "1.11" in "Budget" Text Input in "NewGoogleCampaignPage"
+    16:29:40,033 INFO [Thread-1] (NewGoogleCampaignPage:150 :clickButton) -> 
+    16:29:42,970 INFO [Thread-1] (NewGoogleCampaignPage:152 :clickButton) -> Press "Save" Button in "NewGoogleCampaignPage"
+    16:29:46,207 INFO [Thread-1] (CampaignsPage:344 :select) -> Select "150CampaignsAllButDeleted" option in "View Select" Drop Down Menu in "CampaignsPage"
+    16:29:46,272 INFO [Thread-1] (CampaignsPage:268 :open) ->  null
+    16:29:48,221 INFO [Thread-1] (SingleCampaignPage:196 :select) -> 
+    16:29:49,119 INFO [Thread-1] (SingleCampaignPage:198 :select) -> Select "Settings" Tab in "SingleCampaignPage"
+    16:29:49,683 INFO [Thread-1] (CampaignSettingsPage:300 :getSelected) -> Value of "Publisher\Account" DropDownMenu is "Active" in "CampaignSettingsPage"
+    16:29:49,873 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:29:51,453 INFO [Thread-1] (HomePage:233 :select) -> 
+    16:29:54,460 INFO [Thread-1] (HomePage:235 :select) -> Select "Campaigns" Tab in "HomePage"
+    16:29:54,507 INFO [Thread-1] (CampaignsPage:151 :click) -> 
+    16:29:56,448 INFO [Thread-1] (CampaignsPage:153 :click) -> Press "Create" Button in "CampaignsPage"
+    16:29:56,886 INFO [Thread-1] (NewCampaignPage:146 :typeInput) -> Type "CampaignName_ZJHHo" in "Campaign Name" Text Input in "NewCampaignPage"
+    16:29:56,938 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:56,949 INFO [Thread-1] (NewCampaignPage:197 :select) -> Select "Google · Goog301" option in "Publisher Account" Drop Down Menu in "NewCampaignPage"
+    16:29:56,987 INFO [Thread-1] (NewCampaignPage:98 :clickButton) -> 
+    16:29:57,871 INFO [Thread-1] (NewCampaignPage:100 :clickButton) -> Press "Next Step" Button in "NewCampaignPage"
+    16:29:58,311 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "8/11/14" in "State Date" Text Input in "NewGoogleCampaignPage"
+    16:29:58,458 INFO [Thread-1] (NewGoogleCampaignPage:412 :check) -> click Set End Date YesNewGoogleCampaignPage"
+    16:29:58,607 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "9/11/14" in "End Date" Text Input in "NewGoogleCampaignPage"
+    16:29:58,735 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:58,747 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Active" option in "Status" Drop Down Menu in "NewGoogleCampaignPage"
+    16:29:58,814 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:58,825 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Search Network" option in "Campaign Type" Drop Down Menu in "NewGoogleCampaignPage"
+    16:29:58,841 INFO [Thread-1] (NewGoogleCampaignPage:241 :uncheck) -> 
+    16:29:58,956 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:58,957 INFO [Thread-1] (NewGoogleCampaignPage:244 :uncheck) -> Uncheck on "Search Partners" CheckBox in "NewGoogleCampaignPage"
+    16:29:58,986 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:58,986 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Display Select" CheckBox in "NewGoogleCampaignPage"
+    16:29:59,019 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:29:59,020 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Keyword Matching" CheckBox in "NewGoogleCampaignPage"
+    16:29:59,168 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "1.11" in "Budget" Text Input in "NewGoogleCampaignPage"
+    16:29:59,215 INFO [Thread-1] (NewGoogleCampaignPage:150 :clickButton) -> 
+    16:30:02,053 INFO [Thread-1] (NewGoogleCampaignPage:152 :clickButton) -> Press "Save" Button in "NewGoogleCampaignPage"
+    16:30:06,131 INFO [Thread-1] (CampaignsPage:344 :select) -> Select "150CampaignsAllButDeleted" option in "View Select" Drop Down Menu in "CampaignsPage"
+    16:30:06,199 INFO [Thread-1] (CampaignsPage:268 :open) ->  null
+    16:30:07,876 INFO [Thread-1] (SingleCampaignPage:196 :select) -> 
+    16:30:09,333 INFO [Thread-1] (SingleCampaignPage:198 :select) -> Select "Settings" Tab in "SingleCampaignPage"
+    16:30:09,387 INFO [Thread-1] (CampaignSettingsPage:300 :getSelected) -> Value of "Publisher\Account" DropDownMenu is "Active" in "CampaignSettingsPage"
+    16:30:09,572 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:30:19,724 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:30:19,797 INFO [Thread-1] (HomePage:233 :select) -> 
+    16:30:22,856 INFO [Thread-1] (HomePage:235 :select) -> Select "Campaigns" Tab in "HomePage"
+    16:30:22,889 INFO [Thread-1] (CampaignsPage:151 :click) -> 
+    16:30:24,871 INFO [Thread-1] (CampaignsPage:153 :click) -> Press "Create" Button in "CampaignsPage"
+    16:30:25,311 INFO [Thread-1] (NewCampaignPage:146 :typeInput) -> Type "CampaignName_pzkGM" in "Campaign Name" Text Input in "NewCampaignPage"
+    16:30:25,360 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:25,374 INFO [Thread-1] (NewCampaignPage:197 :select) -> Select "Google · Goog301" option in "Publisher Account" Drop Down Menu in "NewCampaignPage"
+    16:30:25,415 INFO [Thread-1] (NewCampaignPage:98 :clickButton) -> 
+    16:30:26,731 INFO [Thread-1] (NewCampaignPage:100 :clickButton) -> Press "Next Step" Button in "NewCampaignPage"
+    16:30:27,168 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "8/11/14" in "State Date" Text Input in "NewGoogleCampaignPage"
+    16:30:27,310 INFO [Thread-1] (NewGoogleCampaignPage:412 :check) -> click Set End Date YesNewGoogleCampaignPage"
+    16:30:27,451 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "9/11/14" in "End Date" Text Input in "NewGoogleCampaignPage"
+    16:30:27,509 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:27,521 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Active" option in "Status" Drop Down Menu in "NewGoogleCampaignPage"
+    16:30:27,572 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:27,583 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Search Network" option in "Campaign Type" Drop Down Menu in "NewGoogleCampaignPage"
+    16:30:27,619 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:27,619 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Search Partners" CheckBox in "NewGoogleCampaignPage"
+    16:30:27,652 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:27,653 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Display Select" CheckBox in "NewGoogleCampaignPage"
+    16:30:27,677 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:27,678 INFO [Thread-1] (NewGoogleCampaignPage:221 :check) -> Check on "Keyword Matching" CheckBox in "NewGoogleCampaignPage"
+    16:30:27,820 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "1.11" in "Budget" Text Input in "NewGoogleCampaignPage"
+    16:30:27,860 INFO [Thread-1] (NewGoogleCampaignPage:150 :clickButton) -> 
+    16:30:31,067 INFO [Thread-1] (NewGoogleCampaignPage:152 :clickButton) -> Press "Save" Button in "NewGoogleCampaignPage"
+    16:30:34,407 INFO [Thread-1] (CampaignsPage:344 :select) -> Select "150CampaignsAllButDeleted" option in "View Select" Drop Down Menu in "CampaignsPage"
+    16:30:34,458 INFO [Thread-1] (CampaignsPage:268 :open) ->  null
+    16:30:36,607 INFO [Thread-1] (SingleCampaignPage:196 :select) -> 
+    16:30:38,393 INFO [Thread-1] (SingleCampaignPage:198 :select) -> Select "Settings" Tab in "SingleCampaignPage"
+    16:30:38,473 INFO [Thread-1] (CampaignSettingsPage:300 :getSelected) -> Value of "Publisher\Account" DropDownMenu is "Active" in "CampaignSettingsPage"
+    16:30:38,663 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:30:48,984 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:30:49,044 INFO [Thread-1] (HomePage:233 :select) -> 
+    16:30:52,411 INFO [Thread-1] (HomePage:235 :select) -> Select "Campaigns" Tab in "HomePage"
+    16:30:52,468 INFO [Thread-1] (CampaignsPage:151 :click) -> 
+    16:30:54,518 INFO [Thread-1] (CampaignsPage:153 :click) -> Press "Create" Button in "CampaignsPage"
+    16:30:54,959 INFO [Thread-1] (NewCampaignPage:146 :typeInput) -> Type "CampaignName_80vZq" in "Campaign Name" Text Input in "NewCampaignPage"
+    16:30:55,030 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:55,041 INFO [Thread-1] (NewCampaignPage:197 :select) -> Select "Google · Goog301" option in "Publisher Account" Drop Down Menu in "NewCampaignPage"
+    16:30:55,078 INFO [Thread-1] (NewCampaignPage:98 :clickButton) -> 
+    16:30:56,479 INFO [Thread-1] (NewCampaignPage:100 :clickButton) -> Press "Next Step" Button in "NewCampaignPage"
+    16:30:56,922 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "8/11/14" in "State Date" Text Input in "NewGoogleCampaignPage"
+    16:30:57,065 INFO [Thread-1] (NewGoogleCampaignPage:412 :check) -> click Set End Date YesNewGoogleCampaignPage"
+    16:30:57,207 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "9/11/14" in "End Date" Text Input in "NewGoogleCampaignPage"
+    16:30:57,260 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:57,274 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Active" option in "Status" Drop Down Menu in "NewGoogleCampaignPage"
+    16:30:57,335 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:30:57,345 INFO [Thread-1] (NewGoogleCampaignPage:316 :select) -> Select "Display Network Only" option in "Campaign Type" Drop Down Menu in "NewGoogleCampaignPage"
+    16:30:57,489 INFO [Thread-1] (NewGoogleCampaignPage:359 :type) -> Type "1.11" in "Budget" Text Input in "NewGoogleCampaignPage"
+    16:30:57,533 INFO [Thread-1] (NewGoogleCampaignPage:150 :clickButton) -> 
+    16:31:02,408 INFO [Thread-1] (NewGoogleCampaignPage:152 :clickButton) -> Press "Save" Button in "NewGoogleCampaignPage"
+    16:31:05,704 INFO [Thread-1] (CampaignsPage:344 :select) -> Select "150CampaignsAllButDeleted" option in "View Select" Drop Down Menu in "CampaignsPage"
+    16:31:05,773 INFO [Thread-1] (CampaignsPage:268 :open) ->  null
+    16:31:07,519 INFO [Thread-1] (SingleCampaignPage:196 :select) -> 
+    16:31:09,049 INFO [Thread-1] (SingleCampaignPage:198 :select) -> Select "Settings" Tab in "SingleCampaignPage"
+    16:31:09,124 INFO [Thread-1] (CampaignSettingsPage:300 :getSelected) -> Value of "Publisher\Account" DropDownMenu is "Active" in "CampaignSettingsPage"
+    16:31:09,286 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:31:19,744 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:31:19,757 INFO [Thread-1] (TestSingleCreateCampaigns:45 :cleanup) -> <--------- Start Logout Test --------->
+    16:31:19,926 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:31:30,178 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:31:30,273 INFO [Thread-1] (ActivityLogPage:136 :select) -> Select "150" option in "Show" Drop Down Menu in "ActivityLogPage"
+    16:31:31,367 ERROR [Thread-1] (AbstractPage:85 :waitForAjaxRequestDone) -> Failed to wait for no AJAX activity on page in 40000 msec
+    16:31:31,368 INFO [Thread-1] (ActivityLogPage:366 :check) -> Click on "Check Box All" CheckBox in "ActivityLogPage"
+    16:31:31,501 INFO [Thread-1] (ActivityLogPage:136 :select) -> Select "20" option in "Show" Drop Down Menu in "ActivityLogPage"
+    16:31:32,745 INFO [Thread-1] (HomePage:264 :click) -> Press "Admin" Link in "HomePage"
+    16:31:42,999 ERROR [Thread-1] (AbstractPage:177 :waitForElementToDissappear) -> Failed to load jQuery on page in 6000 msec
+    16:31:43,189 INFO [Thread-1] (HomePage:264 :click) -> Press "Logout" Link in "HomePage"
+    16:31:43,538 INFO [Thread-1] (TestSingleCreateCampaigns:49 :cleanup) -> <--------- End Logout Test --------->
+    ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

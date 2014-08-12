@@ -1,0 +1,109 @@
+<project name="Webdriver Automated Tests" basedir=".">
+    <tstamp />
+
+    <!-- ==========  PROJECT PROPERTIES ========== -->
+    <property name="marin.env" value="local" />
+    <property file="${marin.env}.properties" />
+    <property name="currentBrowserCmd" value="unset" />
+
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="target" value="1.5" />
+    <!--1.5 for osx>-->
+    <property name="source" value="1.5" />
+    <property name="libDir" value="${basedir}/lib" />
+    <property name="srcDir" value="${basedir}/src" />
+    <property name="buildDir" value="${basedir}/bin" />
+    <property name="antDir" value="${libDir}/ant" />
+    <property name="localPropsSource" value="${basedir}/../localProps/local.properties" />
+    <property name="localPropsTarget" value="${basedir}/../regression/local.properties" />
+    <property name="currentBrowserPrf" value="${basedir}/currProfile" />
+
+    <!-- ========== CLASSPATH ========== -->
+    <path id="runtime.cp">
+        <pathelement location="bin" />
+        <fileset dir="lib/">
+            <include name="**/*.jar" />
+        </fileset>
+        <pathelement location="lib" />
+        <fileset dir="lib/">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+
+    <!-- ==========  TASKS ========== -->
+    <target name="clean">
+        <delete dir="${buildDir}" />
+    </target>
+
+    <target name="init">
+        <echo message="${ant.file}" />
+        <mkdir dir="bin" />
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src" excludes="**/*.launch, **/*.java" />
+        </copy>
+        <mkdir dir="reports" />
+        <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+            <classpath path="${antDir}/antcontrib.jar" />
+        </taskdef>
+    </target>
+
+    <target name="buildTests" depends="clean,init">
+        <property name="myclasspath" refid="runtime.cp" />
+        <echo message="Classpath = ${myclasspath}" />
+        <javac encoding="UTF-8" debug="true" debuglevel="${debuglevel}" destdir="${buildDir}" source="${source}" target="${target}" fork="true" memoryinitialsize="512m" memorymaximumsize="1024m">
+            <src path="${srcDir}" />
+            <classpath refid="runtime.cp" />
+        </javac>
+    </target>
+
+    <target name="runTest">
+        <property name="testReportsDir" value="${basedir}/reports/${testName}" />
+        <property name="latestTestReportsDir" value="${testReportsDir}/_latest" />
+        <mkdir dir="${testReportsDir}" />
+        <mkdir dir="${latestTestReportsDir}" />
+        <mkdir dir="${testReportsDir}/archive" />
+        <junit printsummary="withOutAndErr" fork="no" showoutput="true">
+            <classpath refid="runtime.cp" />
+            <formatter type="xml" />
+            <test name="test.java.com.marin.qa.selenium.campaigns.${testName}" todir="${testReportsDir}" outfile="TESTS-${testName}-${DSTAMP}${TSTAMP}">
+            </test>
+        </junit>
+        <copy file="${testReportsDir}/TESTS-${testName}-${DSTAMP}${TSTAMP}.xml" tofile="${latestTestReportsDir}/TESTS-${testName}.xml" overwrite="true" />
+        <junitreport todir="${latestTestReportsDir}">
+            <fileset dir="${latestTestReportsDir}">
+                <include name="TESTS-*.xml" />
+                <exclude name="TESTS-TestSuites.xml" />
+            </fileset>
+        </junitreport>
+        <junitreport todir="${testReportsDir}">
+            <fileset dir="${testReportsDir}">
+                <include name="TESTS-${testName}-*.xml" />
+            </fileset>
+        </junitreport>
+    </target>
+
+    <!-- ==========  Tests ========== -->
+    <target name="runBAT" depends="buildTests,batCampaign" />
+    <target name="runSingleCampaign" depends="buildTests,singledCreateCampaigns" />
+    <target name="runBulkCampaign" depends="buildTests,bulkAddCampaigns" />
+
+    <target name="batCampaign">
+        <antcall target="runTest">
+            <param name="testName" value="TestCampaigns1" />
+        </antcall>
+    </target>
+    <target name="singledCreateCampaigns">
+        <antcall target="runTest">
+            <param name="testName" value="TestSingleCreateCampaigns" />
+        </antcall>
+    </target>
+
+    <target name="bulkAddCampaigns">
+        <antcall target="runTest">
+            <param name="testName" value="TestBulkAddCampaigns" />
+        </antcall>
+    </target>
+
+
+
+</project>
