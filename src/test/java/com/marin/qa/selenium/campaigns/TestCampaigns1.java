@@ -28,7 +28,7 @@ public class TestCampaigns1 extends WebdriverBaseClass {
         // HomePage homePage = HomePage.getInstance();
         // homePage.click(driver, HomePage.Link.Admin);
         // homePage.click(driver, HomePage.Link.Logout);
-        // driver.close();
+         driver.close();
         log.info("<--------- End Logout Test --------->");
     }
 
