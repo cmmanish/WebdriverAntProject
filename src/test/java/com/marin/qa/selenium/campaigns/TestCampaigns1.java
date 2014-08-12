@@ -7,8 +7,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-//public class TestCampaigns1 extends WebdriverBaseClass {
-public class TestCampaigns1 {
+public class TestCampaigns1 extends WebdriverBaseClass {
+//public class TestCampaigns1 {
 
     public static Logger log = Logger.getLogger(TestCampaigns1.class);
     public QaRandom random = QaRandom.getInstance();
@@ -16,7 +16,7 @@ public class TestCampaigns1 {
     @BeforeClass
     public static void testSetUp() {
         log.info("<--------- Start Setup Test --------->");
-        // LoginSuccessful();
+        LoginSuccessful();
         // clearAllPendingChanges(driver);
         log.info("<--------- End Setup Test --------->");
     }
